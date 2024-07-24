@@ -1,4 +1,4 @@
-# main.py
+# -*- coding: utf-8 -*-
 import os
 import base64
 import io
