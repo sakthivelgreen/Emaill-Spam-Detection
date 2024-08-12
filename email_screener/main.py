@@ -1,8 +1,5 @@
 # -*- coding: utf-8 -*-
-<<<<<<< HEAD
 # main.py
-=======
->>>>>>> 7e3b121aa0f2c21cd1c8b709e67f86d68088128e
 import os
 import base64
 import io
