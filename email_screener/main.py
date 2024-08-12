@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 # main.py
 import os
 import base64
@@ -116,8 +117,8 @@ mail_settings = {
     "MAIL_PORT": 465,
     "MAIL_USE_TLS": False,
     "MAIL_USE_SSL": True,
-    "MAIL_USERNAME": "rnd1024.64@gmail.com",
-    "MAIL_PASSWORD": "kazxlklvfrvgncse"
+    "MAIL_USERNAME": "emailscreenerproject@gmail.com",
+    "MAIL_PASSWORD": "btpi abic noou nrdg"
 }
 
 app.config.update(mail_settings)
@@ -126,7 +127,7 @@ mail = Mail(app)
 
 def sendmail(usermail,mess1):
 
-    subj1="Spam-Spoiler"
+    subj1="Spam-Detected"
     with app.app_context():
         msg = Message(subject=subj1, sender=app.config.get("MAIL_USERNAME"),recipients=[usermail], body=mess1)
         mail.send(msg)

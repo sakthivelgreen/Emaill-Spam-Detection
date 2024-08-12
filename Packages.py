@@ -12,8 +12,8 @@ pip_commands=[
     "pip install cryptography",
     "pip install scikit-learn",
     "pip install scikit-image",
-    "pip install scpay",
-    "pip install flash_mail",
+    "pip install spacy",
+    "pip install flask_mail",
     "pip install wordcloud",
     "pip install gensim==3.7.1",
 
